@@ -1,2 +1,2 @@
-# futurecodersfoundation.github.io
-Link: futurecodersfoundation.github.io Future Coders Foundation Website
+# Future Coders Foundation Website
+Link: futurecodersfoundation.github.io
