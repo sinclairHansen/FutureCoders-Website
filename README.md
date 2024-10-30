@@ -1,2 +1,1 @@
-# Future Coders Foundation Website
-Link: futurecodersfoundation.github.io
+# futurecodersfoundation.github.io
