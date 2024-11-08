@@ -1,0 +1,133 @@
+/* Editors notes
+two conflicting css files might be an issue
+but we're going to let the me who doesn't have physics hw deal with that😎
+*/
+/* This is for the navigation bar. Makes it look the same across all pages */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background: #06467e;
+} */
+ p{
+    text-align:center;
+ }
+.container{
+    width: 100%;
+    margin: 5% auto;
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+
+.contact-left{
+   flex-basis: 60%;
+   padding: 4% 6%; 
+}
+
+.contact-left h3{ /* "send your request" needs sum space under it*/
+    margin-bottom: 2%;
+ }
+
+.contact-right{
+    
+    flex-basis: 10%;
+    width:100%;
+    padding: 4%;
+    background: rgb(237, 181, 75);
+    color:black;
+}
+/*Adjusts font size based on screen size*/
+@media screen and (max-width: 950px) {
+    .contact-box{
+        height:150%;
+
+    }
+    .container{
+        height:150%;
+    }
+    .td{
+        font-size: 100%;
+        height: 50%;
+        padding-top: 2%;
+    }
+  }
+
+h1{
+    margin-bottom: 1%;
+}
+
+h3{ 
+    font-size: 100%;
+    margin-bottom: 1.5%;
+
+}
+
+.container p{
+    margin-bottom: 4%;
+    color: white;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input[type="text"]{
+    width: 105%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+/* input[type="message"]{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 18px;
+    lowk did not pan out but im keeping this as a teaching moment (also im proud)
+} */
+
+textarea {
+    width: 100%;
+    height: 4%;
+    overflow-y: scroll; /* Enable vertical scrolling */
+    resize: none; /* Prevent user from resizing */
+    padding: 2.5%;
+    margin: 0px;
+}
+
+label{
+    font-size: 80%;
+    margin-bottom: 0.6%;
+    display: block;
+}
+
+button{
+    background: rgb(202, 153, 6);
+    width: 10%;
+    border: none;
+    outline: none;
+    height: 3%;
+    border-radius: 1.5%;
+    margin-top: 6px;
+    box-shadow: 1px 1px 0px 1px black;
+}
+
+tr td:first-child{
+    padding-right: 2%;
+}
+
+tr td{
+    font-size: 1.5vw;
+    padding-top: 2%;
+    height: 50%;
+}

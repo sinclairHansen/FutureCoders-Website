@@ -5,53 +5,82 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Future Coders Foundation || About </title>
   <meta name="description" content="codeSphere is a non-profit organization dedicated to helping students gain access to programming tools.">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="about.css">
 </head>
 
 
-  <header>
-
-    <nav class="navbar">
-      <div class="navdiv">
-        <div class="logo"><a href="futureCoders.html">Future Coders Foundation</a></div>
-        <ul>
-          <li><a href="futureCoders.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="support.html">Apply for Support</a></li>
-          <li><a href="resources.html">Coding Resources</a></li>
-        </ul>
-      </div>
-    </nav>
-
-  </header>
+  <!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="index.html" class="active">Future Coders Foundation</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+    <a href="resources.html">Coding Resources</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+  <script>
+    function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+    }
+  </script>
   <div>
     <main>
       <img src="aboutBanner.png" alt="futureCoders Logo"
       width=100%
       height=50%>
     </main>
-    <img class = "aboutImage" src="PersonalPhoto.jpg" alt="Sinclair Photo"
-    height="25%"
-    width="25%">
-      <h2 class = "about-overlay"> Sinclair Hansen </h2>
-      <p class = "about-overlay2"> My name is Sinclair Hansen and I am a computer science student studying at Schoolcraft College.
+
+    <section>
+      <p class = "aboutText"> Future Coders Foundation was founded in 2024 by two university students studying computer science. We noticed that CS programs were getting more selective and the 
+        job market was getting more competitive. Students who had access to programming resources early on are more likely to be successful in the field.  While trying to find ways to support students in under-served communities
+        we noticed that many students didn't have access to basic technology required for computer programming. Our goal is to repurpose old laptops and donate them to students in need with the help of
+        local non-profits and schools. 
+      </p>
+      <h2 class="aboutText2">Meet Our Founders!</h2>
+
+      <section>
+        <img class = "aboutImage" src="AlexPhoto.jpg" alt="Alex Photo"
+        height= "400vw"
+        width= "300vw">
+        <h2 class="aboutText2"> Alex Daniel </h2>
+        <p class="aboutText">  My name is Alex and I'm a Computer Science student at The University of Michigan. I'm starting Future Coders
+          Foundation because I am passionate about growing the coding community and giving back to students in need. I look forward to seeing its growth
+          and impact on education in Southeast Michigan. 
+        </p>
+    
+      </section>
+    </section>
+    <section>
+      <img class = "aboutImage" src="SinclairPhoto.jpg" alt="Sinclair Photo"
+      height="400vw"
+      width="300vw">
+      <h2 class="aboutText2"> Sinclair Hansen </h2>
+      <p class="aboutText"> My name is Sinclair Hansen and I am a computer science student studying at Schoolcraft College.
         As a CS student, I've noticed the importance of having coding resources early on in education. The field can be quite
         competitive, and having community support can help students improve their skills exponentially. That's my goal for 
-        Future Coders Foundation, and I look forward to sharing a skill that I find very enjoyable with my community. 
+        uture Coders Foundation, and I look forward to sharing a skill that I find very enjoyable with my community. 
       </p>
+    </section>
+
 
 
   </div>
-  <section>
-    <img class = "aboutImage" src="PersonalPhoto.jpg" alt="Sinclair Photo"
-    height= "25%"
-    width= "25%">
-    <h2 class = "about-overlay"> Alex Daniel </h2>
-    <p class = "about-overlay2">  My name is Sinclair Hansen and I am a computer science student studying at Schoolcraft College.
-      As a CS student, I've noticed the importance of having coding resources early on in education. The field can be quite
-      competitive, and having community support can help students improve their skills exponentially. That's my goal for 
-      Future Coders Foundation, and I look forward to sharing a skill that I find very enjoyable with my community. 
-    </p>
 
-  </section>
+  <footer>
+
+    <h5 class="wrapper">Feel free to reach out!</h5>
+    
+    <a class = "button" href="https://linkedin.com/company/future-coders-foundation/"target="_blank" rel="noopener noreferrer">Email</a>
+    <a class = "button" href="https://linkedin.com/company/future-coders-foundation/"targets="blank">LinkedIn</a>
+  </footer>

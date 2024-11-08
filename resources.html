@@ -5,23 +5,148 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Future Coders Foundation || Resources </title>
   <meta name="description" content="codeSphere is a non-profit organization dedicated to helping students gain access to programming tools.">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="resource.css">
 </head>
 
 
-  <header>
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="index.html" class="active">Future Coders Foundation</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+    <a href="resources.html">Coding Resources</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
+   <img src="resourcesBanner.png" alt="futureCoders Logo"
+   width=100%
+   height=100%>
 
-    <nav class="navbar">
-      <div class="navdiv">
-        <div class="logo"><a href="futureCoders.html">Future Coders Foundation</a></div>
-        <ul>
-          <li><a href="futureCoders.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="support.html">Apply for Support</a></li>
-          <li><a href="resources.html">Coding Resources</a></li>
-        </ul>
-      </div>
-    </nav>
+  <h2 class="resourceText">Here are some coding resources for students who are just getting started all
+    the way up to looking for internships! The resources below are organized by age and, in the advanced
+    coding resources, by specialization. Enjoy!
+  </h2>
 
-  </header>
+  <section>
+    <h3>Kid's Intro to Coding</h3>
+    <a class="resourceTitle" href="https://www.scratchjr.org/"target="_blank" rel="noopener noreferrer">ScratchJr</a>
+    <p class="resourceDescription">"ScratchJr is an introductory programming language that 
+      enables young children (ages 5-7) to create their own interactive stories and games. 
+      Children snap together graphical programming blocks to make characters move, 
+      jump, dance, and sing. Children can modify characters in the paint editor, add their own 
+      voices and sounds, even insert photos of themselves -- then use the programming blocks to make their characters come to life."</p>
+    
+    
+      <a class="resourceTitle" href="https://www.codemonkey.com/"target="_blank" rel="noopener noreferrer">Code Monkey</a>
+    <p class="resourceDescription">"CodeMonkey is an AWARD-WINNING online platform that teaches kids real coding 
+      languages like CoffeeScript and Python. Children and teenagers learn block-based and 
+      text-based coding through an engaging game-like environment."</p>
+  </section>
+
+
+  
+  <section>
+    <h3>High School/Intermediate Coders</h3>
+    <a class="resourceTitle" href="https://scratch.mit.edu/"target="_blank" rel="noopener noreferrer">Scratch</a>
+    <h3 class="resourceDescription"  >"Scratch is the world’s 
+      largest coding community for children and a coding language 
+      with a simple visual interface that allows young people to create digital stories, games, and animations. Scratch is designed, developed, and moderated by the Scratch Foundation, a nonprofit organization.
+
+      Scratch promotes computational thinking and problem solving
+      skills; creative teaching and learning; self-expression and 
+      collaboration; and equity in computing.
+      
+      Scratch is always free and is available in more than 70 languages."</h3>
+    <a class="resourceTitle" href="https://code.org/"target="_blank" rel="noopener noreferrer">Code.org</a>
+    <h3 class="resourceDescription">"Code.org® is an education innovation 
+      nonprofit dedicated to the vision that every student in every 
+      school has the opportunity to learn computer science and artificial 
+      intelligence as part of their core K-12 education."" </h3>
+
+      <a class="resourceTitle" href="https://www.codecademy.com/"target="_blank" rel="noopener noreferrer"> Codecademy</a>
+      <h3 class="resourceDescription">Codecademy is a free coding resource that provides
+        classes on 12 popular programming languages (Python, HTML, C++ etc). Students gain access to articles,
+        projects, workspaces, and coding challenges. 
+      </h3>
+
+  </section>
+  <section>
+    <h3>College/Advanced Coding Resources</h3>
+    <h2 class="resourceText" >Here are some resources for advanced high schools or early college students. We are trying to touch
+      many different areas of programming such as AI, Software Development, Web Development, and some early internships. 
+    </h2>
+    <a class="resourceTitle" href="https://github.com/iamismile/web-dev-resources"target="_blank" rel="noopener noreferrer"> Web Development Resources</a>
+    <h3 class="resourceDescription">This is a GitHub repository that provides over 150 resources to help with your next web dev project.
+      It ranges from introduction to HTML/CSS to APIs, Node.js and developer blog sites. It is great for anyone interested in web development.  </h3>
+
+    <a class = "resourceTitle" href="https://github.com/iamismile/web-dev-resources"target="_blank" rel="noopener noreferrer"> Software Development Resources </a>
+    <h3 class ="resourceDescription">This is a link to an article with many software development resources for students of many levels. It provides many classes, 
+      videos, games and advice on how to improve your software development skills </h3>
+
+    <h3 class="resourceTitle">AI/ML resources</h3>
+    <h3 class="resourceDescription">Here are a few websites to get you started or advancing in the field of AI/ML</h3>
+
+    <a class="resourceTitle" href="https://www.kaggle.com/"target="_blank" rel="noopener noreferrer" >Kaggle</a>
+    <h3 class="resourceDescription">Kaggle is a free website that is perfect for building AI/ML or data science projects. Kaggle provides many public datasets for free 
+      and allows users to post their code for others to see. This resource is perfect for students interested in learning PyTorch, matplotlib, numpy, panda and other related 
+      libraries. Another alternative to Kaggle is Google Colab or Jupyter Notebook.
+    </h3>
+
+    <a class="resourceTitle" href="https://www.projectpro.io/article/artificial-intelligence-project-ideas/461"target="_blank" rel="noopener noreferrer"> AI Project Ideas and Source Code (Project Pro)</a>
+    <h3 class =resourceDescription> Project Pro provides 20 Artificial Intelligence project ideas for beginners. It provides the kaggle datasets used for the projects and resources
+      on how to build it.  </h3>
+
+    <a class="resourceTitle" href="https://www.crio.do/projects/category/machine-learning-projects/"target="_blank" rel="noopener noreferrer"> Crio.Do Machine Learning Projects</a>
+    <h3 class="resourceDescription">Crio.Do is a completely free, community driven website that provides machine learning projects for students to download and learn. The 
+      website walks students through the project, and at the end they have a project to put on their resume. This website also provices projects for many other languages and 
+    specializations. </h3>
+  
+
+  </section>
+
+  <section>
+    <h3>Early Internships and Certification Opportunities</h3>
+    <a class="resourceTitle" href="https://github.com/codicate/underclassmen-internships"target="_blank" rel="noopener noreferrer"> List of Freshman/Sophomore College Internships </a>
+    <h3 class="resourceDescription">As the title says, this is a list of all the top companies that have internships targeted to fresman/sophomore in college. It also provides
+      other summer internships opportunities that are worth looking at.
+    </h3>
+
+    <a class="resourceTitle" href="https://grow.google/enroll-certificates/?utm_source=google&utm_medium=paidsearch&utm_campaign=ha-sem-bk-gen-exa__geo--US&utm_term=google%20certifications&gad_source=1&gclid=Cj0KCQjwsoe5BhDiARIsAOXVoUuyEbk5OpfswrnK5gNEtn30_gC66KyH4zozB8eGDNPB7egINi-0G3waAoAJEALw_wcB"target="_blank" rel="noopener noreferrer">Google Certifications</a>
+    <h3 class="resourceDescription">Google has many tech certifications, ranging from IT to Data Science. These are courses that give people an introduction to many topics and 
+      languages. It is important to note: Many of these courses are NOT FREE. Please check the cost before jumping into a certification.
+    </h3>
+
+    <a class="resourceTitle" href="https://learn.microsoft.com/en-us/credentials/"target="_blank" rel="noopener noreferrer"> Microsoft Credentials</a>
+    <h3 class="resourceDescription">Microsoft also offers certification programs. They have classes in: IT, Data Science, Azure, AI and many more. These certifications are great
+      for diving into a particular specialization, and  great on a resume! Just like the Google Certification
+      plase ckeck the prices before jumping into a class.
+    </h3>
+
+  </section>
+
+
+
+
+  <footer>
+
+    <h5 class="wrapper">Feel free to reach out!</h5>
+    
+    <a class = "button" href="https://linkedin.com/company/future-coders-foundation/"target="_blank" rel="noopener noreferrer">Email</a>
+    <a class = "button" href="https://linkedin.com/company/future-coders-foundation/"targets="blank">LinkedIn</a>
+  </footer>
