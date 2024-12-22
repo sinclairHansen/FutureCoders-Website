@@ -10,68 +10,107 @@
 </head>
 
 
-  <!-- Top Navigation Menu -->
-<div class="topnav">
-  <a href="index.html" class="active">Future Coders Foundation</a>
-  <!-- Navigation links (hidden by default) -->
-  <div id="myLinks">
-    <a href="about.html">About Us</a>
-    <a href="contact.html">Contact</a>
-    <a href="resources.html">Coding Resources</a>
+<header2 class = "header2">
+
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about.html">About</a></li>
+    <li style="float:right"><a href="resources.html">Coding Resources</a></li>
+  </ul>
+</header2>
+
+
+<header>
+  <div class="topnav">
+    <a href="index.html" class="active">Future Coders Foundation</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="resources.html">Coding Resources</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
   <script>
     function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
     }
-    }
-  </script>
-  <div>
-    <main>
-      <img src="aboutBanner.png" alt="futureCoders Logo"
-      width=100%
-      height=50%>
-    </main>
+    </script>
 
-    <section>
-      <p class = "aboutText"> Future Coders Foundation was founded in 2024 by two university students studying computer science. We noticed that CS programs were getting more selective and the 
-        job market was getting more competitive. Students who had access to programming resources early on are more likely to be successful in the field.  While trying to find ways to support students in under-served communities
-        we noticed that many students didn't have access to basic technology required for computer programming. Our goal is to repurpose old laptops and donate them to students in need with the help of
-        local non-profits and schools. 
-      </p>
-      <h2 class="aboutText2">Meet Our Founders!</h2>
+</header>
+
+
+
+
+      <section2>
+        <img src="FCFAboutBanner.png" alt="About Banner"
+        height= "100%"
+        width= "100%">
+
+        <p class = "aboutText">
+        We founded Future Coders in 2024 after noticing that CS programs were getting more selective and the job market was getting more competitive. Students who had access to programming 
+        resources early on are more likely to be successful in the field. While trying to find ways to support students in under-served communities we noticed that many students didn't 
+        have access to basic technology required for computer programming. Our goal is to repurpose old 
+        laptops and donate them to students in need with the help of local non-profits and schools.</p>
+      </section2>
 
       <section>
-        <img class = "aboutImage" src="AlexPhoto.jpg" alt="Alex Photo"
-        height= "400vw"
-        width= "300vw">
-        <h2 class="aboutText2"> Alex Daniel </h2>
-        <p class="aboutText">  My name is Alex and I'm a Computer Science student at The University of Michigan. I'm starting Future Coders
-          Foundation because I am passionate about growing the coding community and giving back to students in need. I look forward to seeing its growth
-          and impact on education in Southeast Michigan. 
-        </p>
-    
+        <div>
+          <h2>
+            50% of low-income families don't have the technology required for online education
+          </h2>
+        </div>
+        <div>
+          <h2>
+            50% of low-income families don't have the technology required for online education
+          </h2>
+        </div>
       </section>
-    </section>
-    <section>
-      <img class = "aboutImage" src="SinclairPhoto.jpg" alt="Sinclair Photo"
-      height="400vw"
-      width="300vw">
-      <h2 class="aboutText2"> Sinclair Hansen </h2>
-      <p class="aboutText"> My name is Sinclair Hansen and I am a computer science student studying at Schoolcraft College.
-        As a CS student, I've noticed the importance of having coding resources early on in education. The field can be quite
-        competitive, and having community support can help students improve their skills exponentially. That's my goal for 
-        uture Coders Foundation, and I look forward to sharing a skill that I find very enjoyable with my community. 
-      </p>
-    </section>
+      <section2>
+
+
+        <h2>Meet The Team</h2>
+
+        <section2 class = 'section2 div'>
+          <div>
+            <img class = "aboutImage" src="AlexPhoto.jpg" alt="Alex Photo"
+            width="40%">
+          </div>
+          <div>
+            <h2 class="names"> Alex Daniel </h2>
+            <h3> Co-Founder</h3>
+            <p class="meetTheTeam">  Alex, a Computer Science student at The University of Michigan, founded the Future 
+              Coders Foundation to grow the coding community and support students in need. With a deep passion for education and technology, he is committed 
+              to creating opportunities that inspire the next generation of coders.</p>
+          </div>
+
+
+        </section2>
+    
+      </section2>
+      
+      <section2 class = 'section2 div'>
+        <div>
+          <img class = "aboutImage" src="SinclairPhoto.jpg" alt="Sinclair Photo"
+          width="40%">
+        </div>
+        <div>
+          <h2 class="names"> Sinclair Hansen </h2>
+          <h3>Co-Founder</h3>
+          <p class="meetTheTeam">  Sinclair Hansen, a computer science student at Schoolcraft College, 
+            co-founded the Future Coders Foundation to bridge the digital divide and empower underserved students. Passionate about technology and education, 
+            Sinclair is dedicated to providing resources and opportunities that inspire curiosity and prepare young learners for success in a tech-driven world.</p>
+        </div>
+      </section2>
 
 
 
@@ -79,8 +118,7 @@
 
   <footer>
 
-    <h5 class="wrapper">Feel free to reach out!</h5>
-    
-    <a class = "button" href="https://linkedin.com/company/future-coders-foundation/"target="_blank" rel="noopener noreferrer">Email</a>
-    <a class = "button" href="https://linkedin.com/company/future-coders-foundation/"targets="blank">LinkedIn</a>
+    <img src="FCF_Footer.png" alt="futureCoders Footer"
+    width=100%
+    height=50%>
   </footer>

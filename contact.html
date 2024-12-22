@@ -11,32 +11,48 @@
 </head>
 
 
-  <header>
-  <body>
+<body>
       <!-- Top Navigation Menu -->
-<div class="topnav">
-  <a href="index.html" class="active">Future Coders Foundation</a>
-  <!-- Navigation links (hidden by default) -->
-  <div id="myLinks">
-    <a href="about.html">About Us</a>
-    <a href="contact.html">Contact</a>
-    <a href="resources.html">Coding Resources</a>
+<header2 class = "header2">
+
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about.html">About</a></li>
+    <li style="float:right"><a href="resources.html">Coding Resources</a></li>
+  </ul>
+</header2>
+
+
+<header>
+  <div class="topnav">
+    <a href="index.html" class="active">Future Coders Foundation</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="resources.html">Coding Resources</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-<script>
-  function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
     }
-  }
-  </script>
+    </script>
+
+</header>
+
+
+
     <div class="container">
       <h1>Connect With Us</h1>
       <p>Give us your feedback down here!</p> <!--feedback menu thingy -->
@@ -68,24 +84,43 @@
             <label>Message</label> <!--- this one is just for the message/message box-->
             <textarea type="text" placeholder="Tell us your feedback! Or about that weird dream you had."></textarea>
 
-            <button type="submit">Send</button>
+            <button class = "button" type="submit">Send</button>
 
           </form>
         </div>
+
         <div class="contact-right">
-          <h3>Reach us here</h3>
           <table>
             <tr>
-              <td>Email</td>
-              <td>futurecodersfoundation@gmail.com</td>
+
             </tr>
+
             <tr>
-              <td>LinkedIn</td>
-              <td>https://www.linkedin.com/company/future-coders-foundation/about/</td>
+              <img class = "boxlogo" src="futureCodersLogo.png" alt="futureCoders Logo"
+              width=50%
+              height=50%>
+
             </tr>
           </table>
         </div>
       </div>
     </div>
+
   </body>
   </header>
+  <h1>Check Out Our Socials</h1>
+
+<footer>
+  <a class = "mediabutton" href="https://www.instagram.com/futurecodersfoundation?igsh=MTkycjh2M29jbWdjbQ%3D%3D&utm_source=qr"target="_blank" rel="noopener noreferrer">Instagram</a>
+  <a class = "mediabutton" href="https://linkedin.com/company/future-coders-foundation/"targets="blank">LinkedIn</a>
+</footer>
+
+<footer2>
+
+<img  src="FCF_Footer.png" alt="futureCoders Footer"
+width=100%
+height=50%>
+</footer2>
+
+
+

@@ -10,30 +10,45 @@
 </head>
 
 
-<!-- Top Navigation Menu -->
-<div class="topnav">
-  <a href="index.html" class="active">Future Coders Foundation</a>
-  <!-- Navigation links (hidden by default) -->
-  <div id="myLinks">
-    <a href="about.html">About Us</a>
-    <a href="contact.html">Contact</a>
-    <a href="resources.html">Coding Resources</a>
+<header2 class = "header2">
+
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about.html">About</a></li>
+    <li style="float:right"><a href="resources.html">Coding Resources</a></li>
+  </ul>
+
+</header2>
+
+
+
+<header>
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <a href="index.html" class="active">Future Coders Foundation</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="resources.html">Coding Resources</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+   </a>
   </div>
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-<script>
-  function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+       x.style.display = "block";
+      }
     }
-  }
-  </script>
+    </script>
+</header>
    <img src="resourcesBanner.png" alt="futureCoders Logo"
    width=100%
    height=100%>
@@ -145,8 +160,7 @@
 
   <footer>
 
-    <h5 class="wrapper">Feel free to reach out!</h5>
-    
-    <a class = "button" href="https://linkedin.com/company/future-coders-foundation/"target="_blank" rel="noopener noreferrer">Email</a>
-    <a class = "button" href="https://linkedin.com/company/future-coders-foundation/"targets="blank">LinkedIn</a>
+    <img src="FCF_Footer.png" alt="futureCoders Footer"
+    width=100%
+    height=50%>
   </footer>

@@ -7,9 +7,10 @@ but we're going to let the me who doesn't have physics hw deal with that😎
     margin: 0;
     padding: 0;
 }
-/* body{
-    background: #06467e;
-} */
+body{
+    background: #ffffff;
+    font-family:'Calibri', 'Lucida Grande', sans-serif;
+
  p{
     text-align:center;
  }
@@ -18,7 +19,8 @@ but we're going to let the me who doesn't have physics hw deal with that😎
     margin: 5% auto;
 }
 .contact-box{
-    background: #fff;
+    color: white;
+    background: #002444;
     display: flex;
 }
 
@@ -31,7 +33,7 @@ but we're going to let the me who doesn't have physics hw deal with that😎
     margin-bottom: 2%;
  }
 
-.contact-right{
+/*.contact-right{
     
     flex-basis: 10%;
     width:100%;
@@ -55,9 +57,14 @@ but we're going to let the me who doesn't have physics hw deal with that😎
     }
   }
 
-h1{
-    margin-bottom: 1%;
-}
+  h1{
+
+    text-align: center;
+    margin-left: 25%;
+    margin-right:25%;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+  }
 
 h3{ 
     font-size: 100%;
@@ -81,7 +88,7 @@ h3{
 }
 
 input[type="text"]{
-    width: 105%;
+    width: 100%;
     border: none;
     border-bottom: 1px solid #ccc;
     outline: none;
@@ -111,16 +118,7 @@ label{
     display: block;
 }
 
-button{
-    background: rgb(202, 153, 6);
-    width: 10%;
-    border: none;
-    outline: none;
-    height: 3%;
-    border-radius: 1.5%;
-    margin-top: 6px;
-    box-shadow: 1px 1px 0px 1px black;
-}
+
 
 tr td:first-child{
     padding-right: 2%;
@@ -130,4 +128,105 @@ tr td{
     font-size: 1.5vw;
     padding-top: 2%;
     height: 50%;
+}
+
+.button{
+    display: inline-block;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: rgb(243, 171, 54);
+    padding: 1px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+
+
+section{
+    text-align:center;
+    margin-left: 25%;
+    margin-right:25%;
+    float:center;
+}
+.mediabutton
+{
+    color: white;
+    font-size: 1.7rem;
+    text-decoration: none;
+    background-color: rgb(243, 171, 54);
+    padding: 1px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    height: 8%;
+
+    
+}
+@media screen and (max-width: 950px) {
+  .boxlogo{
+    display:none;
+  }
+}
+
+.boxlogo
+{
+    margin-top:15%;
+    margin-left:20%;
+    float: center;
+}
+footer{
+    float: center;
+    text-align: center;
+    margin-right: 25%;
+    padding-bottom: 10%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #70aec8;
+  }
+  
+          @media screen and (max-width: 880px) {
+            .header2{
+              display:none;
+            }
+             
+          
+            }
+            @media screen and (min-width: 880px) {
+              header{
+                display:none;
+              }
+               
+            
+              }
 }

@@ -1,9 +1,91 @@
 
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap');*
+{
+  margin: 0;
+  padding: 0;
+}
+section{
+  padding-top: 10%;
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  overflow: hidden;
+}
+section div
+{
+  position: relative;
+  width: 50%;
+  background: #70aec8;
+  overflow: hidden;
+
+}
+section div:nth-child(1)
+{
+  position: relative;
+  width: 50%;
+  background: url(aboutChildImage.png);
+  background-size: cover;
+  overflow: hidden;
+
+}
+section div:nth-child(1) h2{
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: white;
+  -webkit-text-fill-color: transparent;
+  left: 100%;
+  color: #fff;
+}
+section div h2{
+  position: absolute;
+  white-space: nowrap;
+  font-size: 6em;
+  line-height: 50vh; 
+  animation: animate 35s linear infinite;
+}
+@keyframes animate
+{
+  0%
+  {
+    transform: translateX(0);
+  }
+  100%
+  {
+    transform: translateX(-100%);
+  }
+}
+
+
+h2{
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 10%;
+}
+
+
+.section2{
+  padding-top: 10%;
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  overflow: hidden;
+}
+.section2 div
+{
+  position: relative;
+  width: 50%;
+  background: #70aec8;
+  overflow: hidden;
+
+}
+
 body{
-    background-color: rgb(0, 36, 68);
+    background-color: rgb(255, 255, 255);
     background-size:cover;
     background-position: center;
-    font-family:'Trebuchet MS', 'Lucida Grande', sans-serif;
+    font-family:'Calibri', 'Lucida Grande', sans-serif;
     
 
 
@@ -16,33 +98,24 @@ body{
  
 
 
-footer{
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 30px;
-  color:black;
-  font-style: bold;
-  font-family:'Gill Sans', sans-serif;
+  footer{
+    padding-top: 10%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    font-style: bold;
 
-
-}
-.aboutImage{
-  padding-top:3%;
-  align-items: center;
-}
-@media screen and (max-width: 950px) {
-  .aboutImage {
-    height: 80%;
-    width: 50%;
 
   }
-}
+  .aboutImage{
+    height: 90%;
+    padding-top:3%;
+    margin-left: 25%;
+    padding-bottom: 50%;
+    align-items: right;
+  }
 
-section{
-  padding-top: 3%;
-  text-align:center;
-  align-items:center;
-}
 
 .button
 {
@@ -59,35 +132,118 @@ section{
 }
 .aboutText
 {
-  color: white;
-  font-size: 3vw;
-  width: 90%;
-  margin-right:auto;
-  margin-left:auto;
-  text-align:center;
+  margin-left: 15%;
+  margin-right: 25%;
+  text-align: center;
+  padding-top:5%;
+
+  color: #000000; 
+  width:70%;
+  font-size: 1.25rem;
 }
+.meetTheTeam
+{
+  text-align: left;
+  padding-top:3%;
+
+  color: #000000; 
+  width:90%;
+  font-size: 1.2rem;
+}
+.names
+{
+  padding-top: 3%;
+  left: 50%; 
+  text-align: left;
+  font-size:2rem;
+  color: rgb(0, 0, 0);
+  font-style: bold;
+  padding-top: 5%;
+}
+h3{
+  text-align: left;
+  font-size: .9rem;
+}
+
 /*Adjusts font size based on screen size*/
 @media screen and (max-width: 950px) {
-  .aboutText {
-    font-size: 150%;
+  .meetTheTeam {
+    margin-left: 15%;
+    margin-right: 25%;
+    text-align: left;
+    color: #000000; 
+    width:70%;
+    font-size: .9rem;
 
   }
-}
-
-}
-.aboutText2{
-  color: rgb(237, 181, 75);
-  font-size: 5vw;
-  text-align:center;
-
-}
-/*Adjusts font size based on screen size*/
-@media screen and (max-width: 950px) {
+  .section2{
+    padding-top: 10%;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    overflow: hidden;
+  }
+  .section2 div
+  {
+    position: relative;
+    width: 50%;
+    background: #70aec8;
+    overflow: hidden;
+  
+  }
   .aboutText2 {
-    font-size: 250%;
+    margin-left: 15%;
+    margin-right: 25%;
+    text-align: left;
+    color: #000000; 
+    width:70%;
+    font-size: 1.25rem;
 
   }
+  .aboutImage {
+    align-items: left;
+    margin-left: 5%;
+    margin-right: 15%;
+    height: 50vh;
+    width: 40vh;
+
+  } 
+
+.names
+{
+  padding-top: 3%;
+  left: 50%; 
+  padding-left: 15%;
+  text-align: left;
+  font-size:1rem;
+  color: rgb(0, 0, 0);
+  font-style: bold;
+  padding-top: 5%;
 }
+.aboutText{
+  margin-left: 15%;
+  margin-right: 25%;
+  text-align: left;
+  padding-top:5%;
+
+  color: #000000; 
+  width:80%;
+  font-size: 1.25rem;
+}
+h3{
+  margin-left: 15%;
+  margin-right: 25%;
+  text-align: left;
+
+
+  color: #000000; 
+  width:80%;
+  font-size: .8rem;
+}
+}
+
+
 
 
 
@@ -128,8 +284,54 @@ section{
   color: rgb(255, 255, 255);
 }
 
-/* Style the active link (or home/logo) */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
 .active {
-  background-color: #ffffff;
-  color: rgb(253, 253, 253);
+  background-color: #70aec8;
+}
+  
+  
+          @media screen and (max-width: 880px) {
+            .header2{
+              display:none;
+            }
+             
+          
+            }
+            @media screen and (min-width: 880px) {
+              header{
+                display:none;
+              }
+               
+            
+              }
+          
+
 }
